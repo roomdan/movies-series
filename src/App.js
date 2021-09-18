@@ -3,6 +3,7 @@ import { BrowserRouter as  Router, Switch, Route } from 'react-router-dom';
 import Header from './Header/Header-Continer';
 import Home from "./home.js";
 import NotFound404 from './notFoundsPages/general-page-not-found';
+import { Subscribe } from './subscribe/subscribe';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
             <Route exact path='/'>
               <Home/>
             </Route>
+            <Route path='/subscribe' exact component={Subscribe} />
             <Route exact path='*'>
               <NotFound404/>
             </Route>
