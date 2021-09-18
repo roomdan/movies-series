@@ -2,12 +2,6 @@ import { BrowserRouter as Router,  Link, Switch, Route} from "react-router-dom"
 import Footer from "./Footer"
 import "./header.scss"
  const Header = props =>{
-    
-    window.onscroll = ()=>{
-        const y= window.scrollY;
-    }
-
-
 
     return (
         <>
