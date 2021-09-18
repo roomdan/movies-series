@@ -14,6 +14,7 @@ const MoviesView = ({name, type})=>{
 
     const validate = (e)=>{if(e==='True'){return true} else {return false}}
     
+    if(name === ''){name='action'}
 
     useEffect(
         ()=>{
