@@ -1,0 +1,22 @@
+@import "./_COLORS_GENERAL.SCSS";
+
+*::selection {
+    background: rgb(53, 53, 53);
+    color: rgb(255, 72, 0);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background: darkgray;
+}
+
+body {
+    background-color: $backgroundBody;
+}

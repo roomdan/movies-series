@@ -1,0 +1,116 @@
+@import "/src/_COLORS_GENERAL.SCSS";
+
+.p-nav {
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .Link {
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+        h1{
+            font-size: 2rem;
+            color: white;
+            transition: color 0.5s linear;
+            &:hover{
+                color: $titlesSecctions;
+            }
+        }
+        .logo{
+            margin-left: 0.5rem;
+            width: 50px;
+            height: 50px;
+            padding: 5px;
+            border-radius: 10rem;
+            background: url(https://i.pinimg.com/474x/9f/b3/b1/9fb3b1bb9713828bd192a2bd467afbc4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+
+    .list-menu {
+        width: 33%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .item-a{
+            margin:1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .link-action{
+                color: white;
+            }
+        }
+        .item-b{
+            margin:1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .link-action{
+                color: white;
+            }
+        }
+    }
+
+}
+
+.footer{
+    width: 100%;
+    min-height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .principalPage{
+        width: 40%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logoEnd{
+            margin-left: 0.5rem;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border-radius: 10rem;
+            background: url(https://i.pinimg.com/474x/9f/b3/b1/9fb3b1bb9713828bd192a2bd467afbc4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .nav-content-app {
+        width: 30%;
+        height: auto;
+        .nav-options{
+            background: none;
+            color: rgba(255, 255, 255, 0.664);
+            ul {
+                li {
+                    margin:0.5rem;
+                    cursor: pointer;
+                    &:hover{
+                        text-decoration: underline;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .nav-about{
+        width: 30%;
+    }
+}

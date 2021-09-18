@@ -1,0 +1,27 @@
+.loader-fist{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .loader-general{
+        width: 5rem;
+        height: 5rem;
+        background: transparent;
+        border-radius: 100%;
+        border: solid rgba(0, 0, 0, 0.233) 0.8rem;
+        border-top: solid rgb(0, 89, 255) 0.8rem;
+        animation: loader 300ms linear infinite;
+    }
+
+    @keyframes loader {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+}

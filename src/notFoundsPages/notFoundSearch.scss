@@ -1,0 +1,51 @@
+@import "../_COLORS_GENERAL.SCSS";
+
+.not-found {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    .not-found-aSearch{
+        width: 70%;
+        padding: 3rem;
+        background-color: rgba(0, 0, 0, 0.92);
+        min-height: 30vh;
+        border-radius:1rem ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .svg-not-found img{
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+        }
+        .text-not-found-search{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            .t1{
+                margin: 1rem;
+                color: white;
+            }
+            .p1{
+                background: $alert;
+                padding: 1rem;
+                border-radius: 1rem;
+                color: red;
+            }
+
+            .movie-on{
+                text-transform: uppercase;
+                font-size: 1.2rem;
+                color: red;
+                font-weight:800 ;
+            }
+
+        }
+    }
+}
+
