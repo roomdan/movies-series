@@ -19,7 +19,7 @@ const MoviesView = ({name, type})=>{
         ()=>{
             try {
                 const movies = async ()=>{
-                    const url = `http://www.omdbapi.com/?apikey=88b0e0ac&s=${name}&page=${page}&t=${type}`;
+                    const url = `https://www.omdbapi.com/?apikey=88b0e0ac&s=${name}&page=${page}&t=${type}`;
                     const ac = await GetAxios(url);
                     switch(validate(ac.data.Response)){
                         case true:
